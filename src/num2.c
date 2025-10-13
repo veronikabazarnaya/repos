@@ -13,6 +13,5 @@ int main(int argc, char** argv)
     {
         printf("%.2f ", a[i]);
     }
-    printf("\n");
 }
 

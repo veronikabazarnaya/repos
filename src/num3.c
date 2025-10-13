@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 int main(int argc, char** argv){
 
     float a[10];
@@ -10,7 +9,6 @@ int main(int argc, char** argv){
     {
         a[i] = atof(argv[i + 1]);
     }
-
     if (k >= 0){
         printf("right\n");
         for (int i = 0; i < 10; i++){
@@ -22,6 +20,4 @@ int main(int argc, char** argv){
             printf("%.1f ", a[(i + abs(k)) % 10]);
     }
     }
-    printf("\n");
 }
-
